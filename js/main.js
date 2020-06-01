@@ -152,6 +152,10 @@ jQuery(document).ready(function( $ ) {
 
   // Clients carousel (uses the Owl Carousel library)
 
+  $("#owl-demo").owlCarousel({
+    navigation : true
+  });
+
   $(window).on('load', function() {
     $(".clients-carousel").owlCarousel({
       autoplay: true,
